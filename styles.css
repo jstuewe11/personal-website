@@ -57,7 +57,7 @@ a{
 }
 
 .nav-link:hover{
-    color: rgba(13, 9, 250, 0.6);
+    color: #007bff;
 }
 
 .hamburger{
@@ -95,9 +95,8 @@ a{
 }
 
 .name-btn{
-    background-color: #aa50c5;
+    background-color: #007bff;
     border: none;
-    color: black;
     padding: 15px 70px;
     text-align: center;
     font-size: 1.2rem;
@@ -106,11 +105,15 @@ a{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
-    box-shadow: 3px 3px 3px 0px rgb(94, 34, 117);
+    box-shadow: 3px 3px 3px 0px rgb(25, 74, 129);
+}
+
+.name-btn a{
+    color: white;
 }
 
 .name-btn:hover{
-    background-color: #6d357e;
+    background-color: #67b1ff;
 }
 
 .center{
@@ -118,6 +121,7 @@ a{
     justify-content: center;
     align-items: center;
     padding-top: 3%;
+    color: white;
 }
 
 .intro{
@@ -461,5 +465,19 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
     .flip-card-back-text{
         font-size: 1rem;
+    }
+
+    .my-photo-container{
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photo-container{
+        margin: auto;
+    }
+    .about-me-text{
+        margin: auto;
     }
 }
