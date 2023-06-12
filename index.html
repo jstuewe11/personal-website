@@ -1,0 +1,155 @@
+<!--Make sure to add links to Github and LinkedIn
+    Probably on the about page-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class="nav-branding">Jacob Stuewe Dev</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#About" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+    <div class="intro">
+        <h1 class="name-intro">HI, I'M JACOB STUEWE</h1>
+        <div class="name-desc-container">
+            <p class="name-desc">I am a Web Developer with a passion for all things web development</p>
+        </div>
+        <div class="center">
+            <button class="name-btn"><a href="#Contact">Contact</a></button>
+        </div>
+    </div>
+    <div id="About">
+        <div class="about-container">
+            <h2 class="about-text">About</h2>
+            <div class="my-photo-container">
+                <div class="photo-container">
+                    <img class="my-img" src="myphoto.jpg"/>
+                </div>
+                <div class="about-me-text">
+                    <p class="about-me-info">I've spent the past few years learning web development, with a main focus on front end. In 2020, around the time Covid began - I started
+                        my journey in web development. I started out creating a shopify store, from there my interest and skills have continued to develop to the stage they are now.
+                    </p>
+                    <p class="about-me-info">Throughout my time learing web developement, I have gained many skills along the way. Anywhere from UI/UX, to frontend, and with some
+                        experience in backend as well.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Projects">
+        <div class="project-container">
+            <h1 class="project-text">Projects</h1>
+            <div class="row">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="computerNetwork.jpg" alt="Computer Network" class="project-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Computer Networking Project</h1>
+                            <p>Fill in later</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="webDesign.png" alt="Computer Network" class="project-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Computer Networking Project</h1>
+                            <p>Fill in later</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="productWebsite.PNG" alt="Computer Network" class="project-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Computer Networking Project</h1>
+                            <p>Fill in later</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="shaders.jpg" alt="Computer Network" class="project-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Computer Networking Project</h1>
+                            <p>Fill in later</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Contact">
+        <div class="contact-container">
+            <h2 class="contact-text">Contact</h2>
+            <div class="fcf-body">
+
+                <div id="fcf-form">
+                <h3 class="fcf-h3">Contact me</h3>
+            
+                <form id="fcf-form-id" class="fcf-form-class" method="POST" action="https://formsubmit.co/j.stuewe@verizon.net">
+                    
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">Your name</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </div>
+                    </div>
+            
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Your email address</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                        </div>
+                    </div>
+            
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Your message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+            
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                    </div> 
+                    <input type="hidden" name="_next" value="C:\Users\jstue\OneDrive\Desktop\Personal\PersonalWebsite\thankyou.html">           
+                </form>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
