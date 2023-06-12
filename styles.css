@@ -29,6 +29,7 @@ a{
     color: black;
     text-decoration: none;
     font-weight: bold;
+    font-family: roboto;
 }
 
 .navbar{
@@ -182,6 +183,13 @@ a{
     transform: rotateY(180deg);
   }
 
+  .flip-card-back-text{
+    width: 75%;
+    margin: auto;
+    padding-top: 5%;
+    font-size: 1.3rem;
+  }
+
   .project-img{
     height: 400px;
     width: 75%;
@@ -221,6 +229,7 @@ a{
   .about-me-info{
     font-size: 1.2rem;
     padding-top: 7%;
+    font-family: roboto;
   }
 
   .my-photo-container{
@@ -230,7 +239,7 @@ a{
   }
 
   .photo-container{
-    width: 30%;
+    width: 40%;
   }
 
   .about-me-text{
@@ -448,5 +457,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     .my-img{
         width: 200px;
         height: 200px;
+    }
+
+    .flip-card-back-text{
+        font-size: 1rem;
     }
 }
