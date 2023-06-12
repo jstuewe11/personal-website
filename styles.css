@@ -103,7 +103,6 @@ a{
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
-    cursor: pointer;
     border-radius: 8px;
     box-shadow: 3px 3px 3px 0px rgb(25, 74, 129);
 }
@@ -121,7 +120,6 @@ a{
     justify-content: center;
     align-items: center;
     padding-top: 3%;
-    color: white;
 }
 
 .intro{
@@ -476,8 +474,18 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
     .photo-container{
         margin: auto;
+        width: 100%;
     }
     .about-me-text{
         margin: auto;
+        width: 100%;
+    }
+
+    .name-intro{
+        font-size: 2rem;
+    }
+
+    .name-desc{
+        padding-top: 50%;
     }
 }
