@@ -181,7 +181,7 @@ a{
   
   .flip-card-back {
     background-color: rgb(184, 219, 255);
-    color: white;
+    color: black;
     transform: rotateY(180deg);
   }
 
