@@ -249,6 +249,51 @@ a{
     width: 30%;
   }
 
+  .flip-card-title{
+    font-family: roboto;
+    font-size: 2rem;
+  }
+
+  footer{
+    background-color: #212529;
+  }
+
+  .footer-container{
+    width: 100%;
+    padding: 70px 30px 20px;
+    margin-top: 3%;
+  }
+
+  .social-icons{
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
+
+  .social-icons a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+  }
+
+  .social-icons a:hover{
+    background-color: black;
+    transition: 0.5s;
+  }
+
+  .social-icons a i:hover{
+    color: white;
+    transition: 0.5s
+  }
+
+
   #fcf-form {
     display:block;
 }

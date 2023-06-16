@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="styles.css" rel="stylesheet">
     <title>Landing Page</title>
 </head>
@@ -34,7 +36,7 @@
     <div class="intro">
         <h1 class="name-intro">HI, I'M JACOB STUEWE</h1>
         <div class="name-desc-container">
-            <p class="name-desc">I am a Software developer </p>
+            <p class="name-desc">I am a Software developer with a passion for all things development</p>
         </div>
         <div class="center">
             <button class="name-btn"><a href="#Contact">Contact</a></button>
@@ -48,7 +50,7 @@
                     <img class="my-img" src="myphoto.jpg"/>
                 </div>
                 <div class="about-me-text">
-                    <p class="about-me-info">I've spent the past few years learning web development, with a main focus on front end. In 2020, around the time Covid began - I started
+                    <p class="about-me-info">I've spent the past few years learning software development, with a main focus on web development. In 2020, around the time Covid began - I started
                         my journey in web development. I started out creating a Shopify store, from there my interest and skills have continued to develop to the stage they are now.
                     </p>
                     <p class="about-me-info">Throughout my time learning web development, I have gained many skills along the way. Anywhere from UI/UX, to frontend, and with some
@@ -68,9 +70,9 @@
                             <img src="computerNetwork.jpg" alt="Computer Network" class="project-img">
                         </div>
                         <div class="flip-card-back">
-                            <h1>Computer Networking</h1>
+                            <h1 class="flip-card-title">Computer Networking</h1>
                             <div class="flip-card-back-text">
-                                <p>Tasked with creating a computer network in which the server would receive math equations from multiple clients and return
+                                <p style="font-family: roboto;">Tasked with creating a computer network in which the server would receive math equations from multiple clients and return
                                     with the answer. Using TCP as the protocol of choice for the project, and multi-threading to allow multiple clients to attach to the server.
                                     The server would keep track of clients and correctly state which client requested which answer.
                                 </p>
@@ -88,9 +90,9 @@
                             <img src="webDesign.png" alt="Computer Network" class="project-img">
                         </div>
                         <div class="flip-card-back">
-                            <h1>Senior Project - Admin Panel (Frontend Team)</h1>
+                            <h1 class="flip-card-title">Admin Panel (Frontend Team)</h1>
                             <div class="flip-card-back-text">
-                                <p>In this project, my team was assigned to a startup company. The request from the startup company was for my team to create an admin panel. This 
+                                <p style="font-family: roboto;">The request from the startup company was for my team to create an admin panel. This 
                                     included the frontend using Vue framework and Django framework for the backend. Using the agile methodology, we had weekly sprints to complete
                                     tickets given to us.
                                 </p>
@@ -109,9 +111,9 @@
                             <img src="productWebsite.PNG" alt="Computer Network" class="project-img">
                         </div>
                         <div class="flip-card-back">
-                            <h1>Product Website</h1>
+                            <h1 class="flip-card-title">Product Website</h1>
                             <div class="flip-card-back-text">
-                                <p> This was my first real project creating a full website. I was tasked on the project to create a website to "sell" our product that we had created.
+                                <p style="font-family: roboto;"> Tasked on the project to create a website to "sell" our product that we had created.
                                     For this project, my team and I created a motion detection camera and created a website that had a full functioning cart and checkout system.
                                     It also included an account management for clients to sign up.
                                 </p>
@@ -129,11 +131,10 @@
                             <img src="database.png" alt="Computer Network" class="project-img">
                         </div>
                         <div class="flip-card-back">
-                            <h1>Database Project</h1>
+                            <h1 class="flip-card-title">Database</h1>
                             <div class="flip-card-back-text">
-                                <p> This project was for a database course I took in college. In this project, my team was tasked with creating a functional database and the 
-                                    different diagrams and dictionaries that illustrate out the database. Using MySQL as our visual tool, we were able to create the database 
-                                    using SQL code.
+                                <p style="font-family: roboto;"> My team was tasked with creating a functional database and the different diagrams and dictionaries that
+                                     depict the database. Using MySQL as our visual tool, we were able to create the database using SQL code.
                                 </p>
                                 <p style="padding-top: 2%; font-style: italic;">Relevant Skills: </p>
                                 <p style="color: #545b62;">* SQL</p>
@@ -188,6 +189,14 @@
         </div>
     </div>
 
+    <footer>
+        <div class="footer-container">
+            <div class="social-icons">
+                <a href="https://github.com/jstuewe11" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jacob-stuewe-b10840239/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
