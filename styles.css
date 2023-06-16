@@ -293,6 +293,12 @@ a{
     transition: 0.5s
   }
 
+  .thank-you-header{
+    font-size: 3rem;
+    font-family: roboto;
+    text-align: center;
+    padding-top: 10%;
+  }
 
   #fcf-form {
     display:block;
@@ -541,5 +547,11 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
     .nav-branding{
         font-size: 1.5rem;
+    }
+
+    .thank-you-header{
+        font-size: 2rem;
+        padding-top: 15%;
+        padding-bottom: 25%;
     }
 }
