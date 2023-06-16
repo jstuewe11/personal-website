@@ -508,6 +508,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
     .flip-card-back-text{
         font-size: 1rem;
+        padding-top: 2%;
     }
 
     .my-photo-container{
@@ -532,5 +533,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
     .name-desc{
         padding-top: 50%;
+    }
+
+    .flip-card-title{
+        font-size: 1.5rem;
     }
 }
